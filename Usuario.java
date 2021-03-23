@@ -11,7 +11,7 @@ public class Usuario {
 	}
 	
 	public void exibirUsuario() {
-		System.out.printf("Olá, %s! Esse é seu Sistema de Gerenciamento de Finanças =)", nomeUsuario);
+		System.out.printf("                                Olá, %s! Esse é seu Sistema de Gerenciamento de Finanças =)                     ", nomeUsuario);
 	}
 	
 

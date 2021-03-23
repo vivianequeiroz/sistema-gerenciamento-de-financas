@@ -23,9 +23,10 @@ public class Carteira {
 	}
 	
 	public void exibirCarteira() {
-		System.out.printf("\n\nO dinheiro de toda a sua renda está na carteira do banco %s , na modalidade de cartão de %s.", nomeBanco, tipoCartao);
-		System.out.printf("\nA porcentagem de cashback dele é igual %.2f =D", porcentagemCashback);
+		System.out.printf("\n\nO dinheiro de toda a sua renda está na conta corrente do banco %s, onde você possui %s.\n", nomeBanco, tipoCartao);
+		System.out.printf("\nA porcentagem de cashback a cada pagamento com o cartão é igual %.2f por mês =D", porcentagemCashback);
 		
 	}
 	
 }
+
